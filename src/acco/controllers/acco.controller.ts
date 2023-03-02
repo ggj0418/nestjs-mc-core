@@ -4,7 +4,6 @@ import { GrpcMethod } from '@nestjs/microservices';
 import { FindAllByOwnerUidRequest } from '../dtos/find-all-by-owner-uid.request';
 import { FindAllByOwnerUidResponse } from '../dtos/find-all-by-owner-uid.response';
 
-// 여기가 Acco 서비스를 제공하는 쪽이다
 @Controller('acco')
 export class AccoController {
   private logger = new Logger(AccoController.name);
